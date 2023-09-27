@@ -10,6 +10,6 @@ class IceTeaTest {
 	@Test
 	@DisplayName("아이스티는 졸라 맛있어")
 	void getPrice() {
-		assertEquals(0, new IceTea().getPrice());
+		assertEquals(2500, new IceTea().getPrice());
 	}
 }
