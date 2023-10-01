@@ -1,8 +1,10 @@
 package io.agistep.foo;
 
+import io.agistep.values.Price;
+
 class HotTea implements Tea {
 	@Override
-	public int getPrice() {
-		return 2000;
+	public Price getPrice() {
+		return Price.of(2000);
 	}
 }

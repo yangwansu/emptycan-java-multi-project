@@ -9,4 +9,9 @@
 
 rootProject.name = 'mono-repository-example'
 
-include 'foo', 'bar'
+include(
+        'shared:values',
+
+        'foo',
+        'bar'
+)

@@ -1,5 +1,6 @@
 package io.agistep.bar;
 
+import io.agistep.values.Price;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -12,6 +13,6 @@ class BarTest {
 	void name() {
 		KimchiRice sut = new KimchiRice();
 
-		assertThat(sut.getPrice()).isEqualTo(5000);
+		assertThat(sut.getPrice()).isEqualTo(Price.of(5000));
 	}
 }

@@ -1,5 +1,6 @@
 package io.agistep.foo;
 
+import io.agistep.values.Price;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -12,9 +13,9 @@ class IceTeaTest {
 	void getPrice() {
 		Tea sut = Tea.builder()
 				.ice().build();
-		assertEquals(2500, sut.getPrice());
+		assertEquals(Price.of(2500), sut.getPrice());
 
 		Tea sut2 = Tea.builder().build();
-		assertEquals(2000, sut2.getPrice());
+		assertEquals(Price.of(2000), sut2.getPrice());
 	}
 }

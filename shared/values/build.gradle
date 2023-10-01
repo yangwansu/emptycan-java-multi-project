@@ -1,0 +1,4 @@
+plugins {
+    id 'conventions-java.lib.17'
+    id 'conventions-java.common.libs'
+}
