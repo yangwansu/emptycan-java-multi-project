@@ -1,0 +1,25 @@
+plugins{
+    id("io.freefair.lombok")
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.valid4j:valid4j:0.5.0'
+    implementation 'org.apache.commons:commons-lang3:3.13.0'
+
+    testImplementation(platform('org.junit:junit-bom:5.10.0'))
+    testImplementation('org.junit.jupiter:junit-jupiter')
+    testRuntimeOnly('org.junit.platform:junit-platform-launcher')
+    testImplementation('org.assertj:assertj-core:3.24.2')
+    testImplementation "org.mockito:mockito-core:3.+"
+}
+
+test {
+    useJUnitPlatform()
+    testLogging {
+        events "passed", "skipped", "failed"
+    }
+}

@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bar/emptycan-java-multi-project.bar.main.iml" filepath="$PROJECT_DIR$/.idea/modules/bar/emptycan-java-multi-project.bar.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bar/emptycan-java-multi-project.bar.test.iml" filepath="$PROJECT_DIR$/.idea/modules/bar/emptycan-java-multi-project.bar.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/buildSrc/emptycan-java-multi-project.buildSrc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/buildSrc/emptycan-java-multi-project.buildSrc.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/buildSrc/emptycan-java-multi-project.buildSrc.test.iml" filepath="$PROJECT_DIR$/.idea/modules/buildSrc/emptycan-java-multi-project.buildSrc.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/foo/emptycan-java-multi-project.foo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/foo/emptycan-java-multi-project.foo.main.iml" />

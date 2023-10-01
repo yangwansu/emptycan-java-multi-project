@@ -9,4 +9,4 @@
 
 rootProject.name = 'emptycan-java-multi-project'
 
-include 'foo'
+include 'foo', 'bar'

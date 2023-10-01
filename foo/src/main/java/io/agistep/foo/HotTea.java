@@ -1,10 +1,8 @@
 package io.agistep.foo;
 
-class IceTea implements Tea {
-
+class HotTea implements Tea {
 	@Override
 	public int getPrice() {
-		return 2500;
+		return 2000;
 	}
-
 }
