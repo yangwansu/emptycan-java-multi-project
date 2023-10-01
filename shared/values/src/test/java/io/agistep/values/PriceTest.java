@@ -9,7 +9,7 @@ class PriceTest {
 
 	@Test
 	void equals() {
-		assertEquals(Price.of(5001), Price.of(5000));
+		assertEquals(Price.of(5000), Price.of(5000));
 		assertNotEquals(Price.of(5000), Price.of(2500));
 	}
 }
